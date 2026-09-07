@@ -8,7 +8,9 @@
 class UsefulSystemMonitor < Formula
   desc "See what's using up your machine, and close what's hogging it"
   homepage "https://github.com/ziweiwu/useful-system-monitor"
-  version "0.10.0"
+  # No explicit `version`: Homebrew scans it from the release URL, and stating
+  # it as well means a bump has two places to change and one of them will be
+  # missed. The test below asserts the binary agrees with whatever was scanned.
   license "MIT"
 
   on_macos do
