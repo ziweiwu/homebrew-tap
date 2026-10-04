@@ -15,23 +15,23 @@ class UsefulSystemMonitor < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ziweiwu/useful-system-monitor/releases/download/v0.10.0/useful-system-monitor-0.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a30d4300b3cfb8d99160a115595495f894cf9011907f7f74fa039cb04f26f4b3"
+      url "https://github.com/ziweiwu/useful-system-monitor/releases/download/v0.10.1/useful-system-monitor-0.10.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ea8a997b0073013af93e658712e14abbf9975f6fcb9e9420ff225693640de656"
     end
     on_intel do
-      url "https://github.com/ziweiwu/useful-system-monitor/releases/download/v0.10.0/useful-system-monitor-0.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3d2e0d48147102c718140db8f532463d04f59379c137f2e3891ae0d6567e5dd1"
+      url "https://github.com/ziweiwu/useful-system-monitor/releases/download/v0.10.1/useful-system-monitor-0.10.1-x86_64-apple-darwin.tar.gz"
+      sha256 "bbb7217a5fea03adcc897cc2a7d7c6679fe288e1d0a88d553ef2342ffa56419e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ziweiwu/useful-system-monitor/releases/download/v0.10.0/useful-system-monitor-0.10.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9b40319310aa05c5a079c660e3214e18c4d4f4464b166a90d9fb5a0f6eb7de49"
+      url "https://github.com/ziweiwu/useful-system-monitor/releases/download/v0.10.1/useful-system-monitor-0.10.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "94b040564db5c838760efab2a9ef615102754099a3e906f64e931633300a1a05"
     end
     on_intel do
-      url "https://github.com/ziweiwu/useful-system-monitor/releases/download/v0.10.0/useful-system-monitor-0.10.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3f9d83f5160f0733f77400e113bd4bdf74df48aed49249634971e67a22dc0992"
+      url "https://github.com/ziweiwu/useful-system-monitor/releases/download/v0.10.1/useful-system-monitor-0.10.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ed14ada01b754293a9e4f5d0c8c005ebc8c80895218f27eb3414bf8e95fd4f37"
     end
   end
 
